@@ -1,0 +1,157 @@
+// Tablet & Smaller
+@media(max-width:800px) {
+    #header-home {
+        height: 30rem;
+    }
+
+    // About
+
+    #about {
+        &-a {
+            .about-info {
+                grid-template-areas:
+                    'bioimage'
+                    'bio';
+
+                .bio {
+                    margin-top: -20px;
+                    padding: 1rem 0;
+                }
+            }
+
+            .bio-image {
+                width: 100%;
+            }
+        }
+
+        &-b {
+            margin-top: -97px;
+        }
+    }
+
+}
+
+// Smartphones
+@media(max-width:500px) {
+    #main-nav {
+        align-items: center;
+
+        ul {
+            margin-top: -15px;
+        }
+
+        li {
+            padding: 1rem;
+        }
+    }
+
+    #header {
+        &-home {
+            height: 15rem;
+            border-bottom: 3px solid $main-color;
+
+            background-position: center center;
+
+            .header-content {
+                display: none;
+            }
+        }
+    }
+
+    // Stack Grid Columns
+
+    #home-a .specials,
+    #home-b .stats,
+    #home-c .process,
+    #about-d .testimonials,
+    .items,
+    #contact-b .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    #home {
+
+        &-a {
+            .specials div {
+                border-bottom: 1px solid $light-color;
+                padding-bottom: 1rem;
+
+                &:last-child {
+                    border: none;
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        &-b {
+            .stats div {
+                padding: 2rem 0 1rem 0;
+            }
+        }
+    }
+
+
+
+    // Contact
+    #contact {
+        &-b {
+            div {
+                margin-bottom: 1rem;
+                padding-bottom: 1rem;
+                border-bottom: 1px #555 solid;
+
+                &:last-child {
+                    border-bottom: none;
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+            }
+
+            .bottom-line {
+                padding: 0;
+
+            }
+        }
+
+        &-c {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    // Footer
+    #main-footer {
+        height: 6rem;
+
+        .footer-content {
+            flex-direction: column;
+            padding: 0.5rem;
+            height: 5rem;
+
+            p {
+                padding-bottom: 0.6rem;
+            }
+        }
+    }
+
+
+}
+
+// Landscape 
+
+@media(max-height: 580px) {
+    #header-home {
+        .header-content {
+            padding-top: 3rem;
+        }
+    }
+}
+
+@media(max-height: 330px) {
+    #header-home {
+        .header-content h1 {
+            font-size: 2rem;
+        }
+    }
+}

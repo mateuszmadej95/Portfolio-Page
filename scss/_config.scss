@@ -1,0 +1,18 @@
+// Variables
+
+$website-width: 1280px;
+$main-color: #E65F5C;
+$light-color: #F5F7DC;
+$medium-color: #B5D99C;
+$dark-color: #0F0326;
+
+// Set text color
+@function set-text-color($color) {
+    @if(lightness($color)>50) {
+        @return #000;
+    }
+
+    @else {
+        @return #fff;
+    }
+}
