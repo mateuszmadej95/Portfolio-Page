@@ -287,27 +287,27 @@ input[class^="btn-"]:hover {
 }
 
 .outer-wrapper .s-wrap .s-item-1 {
-  background: url("/dist/img/Cert/HTMLCSSeng.jpg") no-repeat center center/cover;
+  background: url("./img/Cert/HTMLCSSeng.jpg") no-repeat center center/cover;
 }
 
 .outer-wrapper .s-wrap .s-item-2 {
-  background: url("/dist/img/Cert/Gitend.jpg") no-repeat center center/cover;
+  background: url("./img/Cert/Gitend.jpg") no-repeat center center/cover;
 }
 
 .outer-wrapper .s-wrap .s-item-3 {
-  background: url("/dist/img/Cert/JSeng.jpg") no-repeat center center/cover;
+  background: url("./img/Cert/JSeng.jpg") no-repeat center center/cover;
 }
 
 .outer-wrapper .s-wrap .s-item-4 {
-  background: url("/dist/img/Cert/SEOeng.jpg") no-repeat center center/cover;
+  background: url("./img/Cert/SEOeng.jpg") no-repeat center center/cover;
 }
 
 .outer-wrapper .s-wrap .s-item-5 {
-  background: url("/dist/img/Cert/port.jpg") no-repeat center center/cover;
+  background: url("./img/Cert/port.jpg") no-repeat center center/cover;
 }
 
 .outer-wrapper .s-wrap .s-item-6 {
-  background: url("/dist/img/Cert/eng.jpg") no-repeat center center/cover;
+  background: url("./img/Cert/eng.jpg") no-repeat center center/cover;
 }
 
 .outer-wrapper .s-type-1 .s-control {
@@ -571,7 +571,7 @@ img {
 }
 
 #header-home {
-  background: url(/dist/img/cover.jpg) no-repeat center 80% / cover;
+  background: url(./img/cover.jpg) no-repeat center 80% / cover;
   height: 100vh;
   color: #fff;
 }
